@@ -346,10 +346,10 @@ Demonstrates traffic-control policies between network segments.
 
 #### Active Directory Users and Computers
 
-<img width="469" height="138" alt="Finance User" src="https://github.com/user-attachments/assets/fe73607a-ef02-47d1-83db-2534fe7979d8" />
-<img width="415" height="178" alt="HR User" src="https://github.com/user-attachments/assets/89972a43-33a7-4170-8431-23ab4fbc4863" />
-<img width="441" height="194" alt="IT User" src="https://github.com/user-attachments/assets/8f1cbcd8-b01f-4179-9bb6-1b7e7529bcdc" />
-<img width="380" height="272" alt="Workstation User" src="https://github.com/user-attachments/assets/c5a601fb-73e5-4878-bdf2-fa94661d950a" />
+<img width="410" height="150" alt="Finance User" src="https://github.com/user-attachments/assets/fe73607a-ef02-47d1-83db-2534fe7979d8" />
+<img width="410" height="150" alt="HR User" src="https://github.com/user-attachments/assets/89972a43-33a7-4170-8431-23ab4fbc4863" />
+<img width="410" height="200" alt="IT User" src="https://github.com/user-attachments/assets/8f1cbcd8-b01f-4179-9bb6-1b7e7529bcdc" />
+<img width="410" height="250" alt="Workstation User" src="https://github.com/user-attachments/assets/c5a601fb-73e5-4878-bdf2-fa94661d950a" />
 
 Demonstrates centralized identity infrastructure.
 
