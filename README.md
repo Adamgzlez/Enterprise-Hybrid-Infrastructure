@@ -315,15 +315,11 @@ The Azure VM was accessed and tested using private network connectivity rather t
 
 # Screenshots
 
-### Network Architecture
-
-*Final Hybrid Infrastructure Diagram*
-
 ---
 
 ### VMware Environment
 
-*VM Inventory*
+<img width="334" height="319" alt="VMware Environment" src="https://github.com/user-attachments/assets/abdef378-1158-4df4-8a2f-ae0c643db447" />
 
 Demonstrates the virtualized on-premises infrastructure and systems used in the project.
 
@@ -331,7 +327,8 @@ Demonstrates the virtualized on-premises infrastructure and systems used in the 
 
 ### OPNsense Interfaces
 
-*WAN / LAN / DMZ Interfaces*
+<img width="1549" height="1753" alt="Interface WAN" src="https://github.com/user-attachments/assets/8ae0d6a4-5f9c-473e-af3b-b015f85e22a7" /> <img width="1483" height="1763" alt="Interface LAN" src="https://github.com/user-attachments/assets/250373a2-8e82-4972-bb40-fdccd7e55d23" /> <img width="1504" height="1765" alt="Interface DMZ" src="https://github.com/user-attachments/assets/3c025bae-39ef-4ffa-aceb-28f064fd6dcf" />
+
 
 Demonstrates network segmentation between the different VMware networks.
 
@@ -339,7 +336,7 @@ Demonstrates network segmentation between the different VMware networks.
 
 ### OPNsense Firewall Rules
 
-*Firewall Rules Screenshot*
+<img width="2862" height="892" alt="Firewall Rules" src="https://github.com/user-attachments/assets/8ee1c574-5317-4544-91a6-e92c59515878" />
 
 Demonstrates traffic-control policies between network segments.
 
@@ -347,7 +344,12 @@ Demonstrates traffic-control policies between network segments.
 
 ### Active Directory
 
-*Active Directory Users and Computers*
+#### Active Directory Users and Computers
+
+<img width="469" height="138" alt="Finance User" src="https://github.com/user-attachments/assets/fe73607a-ef02-47d1-83db-2534fe7979d8" />
+<img width="415" height="178" alt="HR User" src="https://github.com/user-attachments/assets/89972a43-33a7-4170-8431-23ab4fbc4863" />
+<img width="441" height="194" alt="IT User" src="https://github.com/user-attachments/assets/8f1cbcd8-b01f-4179-9bb6-1b7e7529bcdc" />
+<img width="380" height="272" alt="Workstation User" src="https://github.com/user-attachments/assets/c5a601fb-73e5-4878-bdf2-fa94661d950a" />
 
 Demonstrates centralized identity infrastructure.
 
@@ -355,7 +357,7 @@ Demonstrates centralized identity infrastructure.
 
 ### DNS
 
-*DNS Manager*
+<img width="747" height="128" alt="Domain-Company Name" src="https://github.com/user-attachments/assets/41190b94-fd6e-4ba0-aca7-2b9dd0abadc9" />
 
 Demonstrates internal DNS services for the Active Directory environment.
 
@@ -363,7 +365,7 @@ Demonstrates internal DNS services for the Active Directory environment.
 
 ### DHCP
 
-*DHCP Configuration*
+<img width="813" height="453" alt="OPNsense Configuration Edit" src="https://github.com/user-attachments/assets/deba8aad-d5a0-4c21-b316-a7da29084b19" />
 
 Demonstrates automated client network configuration.
 
@@ -379,7 +381,13 @@ Demonstrates connectivity within the internal LAN.
 
 ### Linux Systems
 
-*Ubuntu Network Configuration / SSH*
+#### Ubuntu LAN Connectivity
+
+<img width="884" height="676" alt="Ubuntu Server Connectivity" src="https://github.com/user-attachments/assets/6b4e169f-a255-43d5-aa78-f4bd1b4791df" />
+
+#### Ubuntu DMZ Connectivity
+
+<img width="885" height="547" alt="DMZ Connectivity" src="https://github.com/user-attachments/assets/277b3754-2445-41b3-8cb5-631679383ccb" />
 
 Demonstrates Linux integration into the virtual network.
 
@@ -419,7 +427,7 @@ Demonstrates Azure's representation of the on-premises network and VPN endpoint.
 
 ### OPNsense IPsec Tunnel
 
-*IPsec Status Screenshot*
+<img width="2976" height="745" alt="OPNsense IPsec Status Overview IP Hidden" src="https://github.com/user-attachments/assets/ffbbd176-72a3-4c08-b869-abbdf9983642" />
 
 Demonstrates established IKE and Child Security Associations between OPNsense and Azure.
 
@@ -439,7 +447,13 @@ Demonstrates successful establishment of the Azure Site-to-Site VPN.
 
 Demonstrates actual traffic passing from the VMware LAN through OPNsense and the encrypted IPsec tunnel to the Azure VM.
 
-**This is one of the most important screenshots in the project because it proves the VPN was not merely configured—it successfully carried traffic.**
+---
+
+### Wireshark Troubleshooting 
+
+<img width="1468" height="861" alt="Wireshark Troubleshoot" src="https://github.com/user-attachments/assets/8dd31182-86b7-42ea-a4cc-c5288845c9ee" />
+
+Troubleshooting if packets were coming through IPsec Tunnel.
 
 ---
 
@@ -489,7 +503,7 @@ The final tunnel was successfully established between OPNsense and Azure.
 
 ## End-to-End Connectivity
 
-An established VPN tunnel does not automatically guarantee that workloads can communicate.
+An established VPN tunnel does not automatically guarantee that workloads can communicate so I tested connectivity between them using an Azure VM.
 
 Additional troubleshooting included:
 
