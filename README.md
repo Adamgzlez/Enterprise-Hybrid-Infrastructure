@@ -443,7 +443,7 @@ Demonstrates successful establishment of the Azure Site-to-Site VPN.
 
 ### Azure VM Overview
 
-
+<img width="1725" height="637" alt="Azure VM Overview" src="https://github.com/user-attachments/assets/d1009faf-03fc-4093-a7c9-978414c2ff3f" />
 
 Demonstrates that the Azure VM was created from Microsoft Azure
 
