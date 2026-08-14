@@ -89,7 +89,7 @@ The VPN establishes private connectivity between:
 
 # Architecture Diagram
 
-*Insert Architecture Diagram Here*
+<img width="1536" height="1024" alt="Hybrid Lab Topology Picture" src="https://github.com/user-attachments/assets/e4467983-92ef-49ce-ab53-3d25f6b6b4ac" />
 
 ---
 
