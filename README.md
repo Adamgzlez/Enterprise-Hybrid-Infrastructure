@@ -4,7 +4,7 @@
 
 This project is an enterprise-style hybrid infrastructure environment built using VMware Workstation, OPNsense, Windows Server, Linux, and Microsoft Azure.
 
-The project simulates an on-premises corporate network containing separate LAN and DMZ segments, centralized Windows services, client and server systems, and an OPNsense firewall. The on-premises environment is connected to an Azure virtual network through a functional **IKEv2/IPsec Site-to-Site VPN between OPNsense and an Azure VPN Gateway**.
+The project simulates an on-premises corporate network containing separate LAN and DMZ segments, centralized Windows services, client and server systems, and an OPNsense firewall. The on-premises environment is connected to an Azure virtual network through a functional IKEv2/IPsec Site-to-Site VPN between OPNsense and an Azure VPN Gateway.
 
 Private communication between the VMware environment and an Azure virtual machine was successfully established and validated across the VPN tunnel.
 
