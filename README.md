@@ -441,6 +441,14 @@ Demonstrates successful establishment of the Azure Site-to-Site VPN.
 
 ---
 
+### Azure VM Overview
+
+
+
+Demonstrates that the Azure VM was created from Microsoft Azure
+
+---
+
 ### Hybrid Connectivity Test
 
 <img width="832" height="547" alt="Azure VM Connection to OPN - Ping" src="https://github.com/user-attachments/assets/727b7f8e-62d8-4091-96dc-6ec80a454449" />
@@ -451,7 +459,7 @@ Demonstrates actual traffic passing from the VMware LAN through OPNsense and the
 
 ### Wireshark Troubleshooting 
 
-<img width="1468" height="861" alt="Wireshark Troubleshoot" src="https://github.com/user-attachments/assets/8dd31182-86b7-42ea-a4cc-c5288845c9ee" />
+<img width="1468" height="861" alt="Wireshark Troubleshoot edited" src="https://github.com/user-attachments/assets/aea473a3-5a91-4b21-a488-cad7d847afed" />
 
 Troubleshooting if packets were coming through IPsec Tunnel.
 
