@@ -511,7 +511,7 @@ The final tunnel was successfully established between OPNsense and Azure.
 
 ## End-to-End Connectivity
 
-An established VPN tunnel does not automatically guarantee that workloads can communicate so I tested connectivity between them using an Azure VM.
+An established VPN tunnel does not automatically guarantee that workloads can communicate, so I tested connectivity between them using an Azure VM.
 
 Additional troubleshooting included:
 
@@ -580,8 +580,8 @@ Potential enhancements include:
 
 The project successfully created a virtualized enterprise-style on-premises network and established secure hybrid connectivity with Microsoft Azure.
 
-A functional **IKEv2/IPsec Site-to-Site VPN was established directly between OPNsense and an Azure VPN Gateway**, connecting the on-premises `192.168.10.0/24` LAN with the Azure `10.0.0.0/16` network.
+A functional IKEv2/IPsec Site-to-Site VPN was established directly between OPNsense and an Azure VPN Gateway, connecting the on-premises `192.168.10.0/24` LAN with the Azure `10.0.0.0/16` network.
 
 Private communication between a VMware workload and the Azure Windows Server at `10.0.1.4` was successfully validated across the tunnel.
 
-The project provided hands-on experience configuring and troubleshooting **routing, NAT, firewall policies, IPsec/IKEv2 negotiation, Azure networking, NSGs, Windows/Linux systems, and end-to-end hybrid connectivity**.
+The project provided hands-on experience configuring and troubleshooting routing, NAT, firewall policies, IPsec/IKEv2 negotiation, Azure networking, NSGs, Windows/Linux systems, and end-to-end hybrid connectivity.
