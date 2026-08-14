@@ -329,14 +329,6 @@ Demonstrates the virtualized on-premises infrastructure and systems used in the 
 
 ---
 
-### OPNsense Dashboard
-
-*OPNsense Dashboard*
-
-Demonstrates firewall deployment and interface configuration.
-
----
-
 ### OPNsense Interfaces
 
 *WAN / LAN / DMZ Interfaces*
@@ -395,7 +387,7 @@ Demonstrates Linux integration into the virtual network.
 
 ### Azure Resource Group
 
-*Azure Resource Group Screenshot*
+<img width="1403" height="895" alt="Resource Groups" src="https://github.com/user-attachments/assets/27b59158-ffee-4906-b7ca-c14c39686be7" />
 
 Demonstrates the Azure resources deployed for the hybrid environment.
 
@@ -403,7 +395,7 @@ Demonstrates the Azure resources deployed for the hybrid environment.
 
 ### Azure Hub Virtual Network
 
-*Hub VNet and Subnets*
+<img width="1725" height="437" alt="Azure hub network" src="https://github.com/user-attachments/assets/ca91cc06-bb8b-4673-93fb-db7961d0f2a9" />
 
 Demonstrates the Azure `10.0.0.0/16` network design and dedicated infrastructure subnets.
 
@@ -411,7 +403,7 @@ Demonstrates the Azure `10.0.0.0/16` network design and dedicated infrastructure
 
 ### Azure VPN Gateway
 
-*Virtual Network Gateway Screenshot*
+<img width="2035" height="321" alt="Virtual Networks" src="https://github.com/user-attachments/assets/ab5261c8-3e4f-4368-80be-510f574fccfd" />
 
 Demonstrates the Azure endpoint used for Site-to-Site VPN connectivity.
 
@@ -419,7 +411,7 @@ Demonstrates the Azure endpoint used for Site-to-Site VPN connectivity.
 
 ### Local Network Gateway
 
-*Local Network Gateway Screenshot*
+<img width="1977" height="258" alt="Local Network Azure" src="https://github.com/user-attachments/assets/e79eae65-3ca3-483f-85a4-fb8d22bba66f" />
 
 Demonstrates Azure's representation of the on-premises network and VPN endpoint.
 
@@ -435,7 +427,7 @@ Demonstrates established IKE and Child Security Associations between OPNsense an
 
 ### Azure VPN Connection
 
-*Connected VPN Screenshot*
+<img width="1518" height="219" alt="conn-azure-opnsense connected" src="https://github.com/user-attachments/assets/cfe4331f-c24d-4dba-9ee4-217843cfc01a" />
 
 Demonstrates successful establishment of the Azure Site-to-Site VPN.
 
@@ -443,7 +435,7 @@ Demonstrates successful establishment of the Azure Site-to-Site VPN.
 
 ### Hybrid Connectivity Test
 
-*Successful Ping to `10.0.1.4`*
+<img width="832" height="547" alt="Azure VM Connection to OPN - Ping" src="https://github.com/user-attachments/assets/727b7f8e-62d8-4091-96dc-6ec80a454449" />
 
 Demonstrates actual traffic passing from the VMware LAN through OPNsense and the encrypted IPsec tunnel to the Azure VM.
 
@@ -453,7 +445,7 @@ Demonstrates actual traffic passing from the VMware LAN through OPNsense and the
 
 # Challenges and Troubleshooting
 
-One of the primary goals of this project was developing practical troubleshooting experience rather than simply deploying resources.
+One of the primary goals of this project was to develop practical troubleshooting experience rather than simply deploying resources.
 
 ## VMware Virtual Networking
 
