@@ -371,14 +371,6 @@ Demonstrates automated client network configuration.
 
 ---
 
-### Windows Client
-
-*Windows Client Connectivity / Domain Screenshot*
-
-Demonstrates connectivity within the internal LAN.
-
----
-
 ### Linux Systems
 
 #### Ubuntu LAN Connectivity
